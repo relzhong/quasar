@@ -28,7 +28,7 @@ export default {
       name = `bt ${icon}`
     }
     else if (icon.startsWith('ion-') || icon.startsWith('icon-')) {
-      name = `${icon}`
+      name = `iconfont ${icon}`
     }
     else if (icon.startsWith('mdi-')) {
       name = `mdi ${icon}`
